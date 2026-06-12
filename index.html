@@ -67,11 +67,13 @@
         .ad-space {
             background: #f8f9fa;
             border: 2px dashed #adb5bd;
-            padding: 25px;
+            padding: 20px;
             text-align: center;
-            margin: 30px 0;
+            margin: 25px 0;
             color: #6c757d;
             font-size: 14px;
+            overflow: hidden;
+            border-radius: 8px;
         }
 
         /* 🔘 BUTTONS STYLING 🔘 */
@@ -113,7 +115,7 @@
 
     <div class="article-container">
         
-        <!-- 🔼 TOP INFO (NO TIMER DISPLAY, JUST TEXT) 🔼 -->
+        <!-- 🔼 TOP INFO 🔼 -->
         <div class="top-info-section">
             <div class="step-badge" id="stepBadge">Loading Step...</div>
             <div class="scroll-text">👇 Please scroll down to continue 👇</div>
@@ -121,45 +123,71 @@
 
         <h1 id="mainTitle">The Complete Guide to Next-Gen Technologies</h1>
 
+        <!-- AD SPACE 1: 300x250 BANNER (TOP) -->
+        <div class="ad-space">
+            <script>
+              atOptions = {
+                'key' : '9c715f636be21957847bb90ec46ecc2a',
+                'format' : 'iframe',
+                'height' : 250,
+                'width' : 300,
+                'params' : {}
+              };
+            </script>
+            <script src="https://www.highperformanceformat.com/9c715f636be21957847bb90ec46ecc2a/invoke.js"></script>
+        </div>
+
         <div id="textBlock1_Step1">
             <p>The digital landscape is undergoing a massive transformation. As we move deeper into the decade, the reliance on traditional web architectures is fading, giving way to hyper-optimized, intelligent systems. Web design and development are no longer just about writing HTML and CSS; they require a profound understanding of user psychology, algorithmic content delivery, and seamless integrations with cloud infrastructure. Developers today are architects of digital ecosystems.</p>
-            <p>One of the most revolutionary shifts is the integration of Artificial Intelligence (AI) directly into frontend interfaces. Previously, AI was a backend processing tool, crunching numbers on remote servers. Today, AI models run directly in the browser via WebAssembly, analyzing user behavior in real-time to adjust color schemes, typography, and content layouts on the fly. This personalization ensures that no two users have the exact same visual experience on a platform.</p>
-            <p>Furthermore, accessibility is finally being treated as a fundamental requirement rather than an afterthought. Designing for screen readers, ensuring high contrast ratios, and building keyboard-navigable websites are legally mandated in many regions. This push for inclusive design not only helps those with disabilities but also creates a cleaner, more logical code structure that benefits Search Engine Optimization (SEO) immensely.</p>
+            <p>One of the most revolutionary shifts is the integration of Artificial Intelligence (AI) directly into frontend interfaces. Previously, AI was a backend processing tool, crunching numbers on remote servers. Today, AI models run directly in the browser via WebAssembly, analyzing user behavior in real-time to adjust color schemes, typography, and content layouts on the fly.</p>
         </div>
 
         <div id="textBlock1_Step2" class="hidden">
             <p>Welcome to the second phase of our deep dive into modern web architecture. Beyond the visual layer, the very infrastructure that hosts websites is fundamentally changing. The concept of Web 3.0 and decentralized hosting is moving from theoretical whitepapers into practical applications. Instead of relying on a single centralized server farm, modern applications are distributed across thousands of peer-to-peer nodes globally.</p>
-            <p>This decentralized approach brings unparalleled security and resilience. If one node goes down, the network automatically reroutes traffic, making these websites practically immune to Distributed Denial of Service (DDoS) attacks and server outages. Additionally, data ownership is shifting back to the users. Through decentralized identity protocols, users can carry their data across platforms securely, without relying on big tech monopolies to store their personal information.</p>
-            <p>Blockchain domain names are also disrupting traditional DNS providers. Domains ending in .crypto or .eth are stored directly on the blockchain, meaning they cannot be seized or censored by central authorities. This absolute ownership is empowering independent creators and developers to build truly open platforms that withstand external pressures and corporate censorship.</p>
+            <p>This decentralized approach brings unparalleled security and resilience. If one node goes down, the network automatically reroutes traffic, making these websites practically immune to Distributed Denial of Service (DDoS) attacks and server outages.</p>
         </div>
 
-        <!-- ADSTERRA AD PLACEMENT 1 (BANNER) -->
+        <!-- AD SPACE 2: NATIVE BANNER (MIDDLE) -->
         <div class="ad-space">
-            [Insert Adsterra 728x90 or 300x250 Banner Ad Script Here]
+            <script async="async" data-cfasync="false" src="https://pl29723144.effectivecpmnetwork.com/b6e41ad24abdf65161d244e6c95a220c/invoke.js"></script>
+            <div id="container-b6e41ad24abdf65161d244e6c95a220c"></div>
         </div>
 
-        <!-- 🔘 MIDDLE BUTTON (NOW WITH 10S TIMER) 🔘 -->
+        <!-- 🔘 MIDDLE BUTTON (10S TIMER) 🔘 -->
         <div class="btn-wrapper" id="middleBtnWrapper">
             <button id="readMoreBtn" class="action-btn" disabled>Please wait 10s...</button>
         </div>
 
         <div id="hiddenSection" class="hidden">
+
+            <!-- AD SPACE 3: 300x250 BANNER (STEP 2 REPEAT) -->
+            <div class="ad-space">
+                <script>
+                  atOptions = {
+                    'key' : '9c715f636be21957847bb90ec46ecc2a',
+                    'format' : 'iframe',
+                    'height' : 250,
+                    'width' : 300,
+                    'params' : {}
+                  };
+                </script>
+                <script src="https://www.highperformanceformat.com/9c715f636be21957847bb90ec46ecc2a/invoke.js"></script>
+            </div>
             
             <div id="textBlock2_Step1">
                 <h2>The Era of Micro-Interactions</h2>
                 <p>While the underlying code becomes increasingly complex, visible user interfaces are trending towards extreme minimalism. However, minimalism does not mean static. Designers are heavily relying on 'micro-interactions'—subtle animations, haptic feedback on mobile devices, and intuitive hover states. These tiny details guide the user smoothly through complex workflows without overwhelming them with text instructions.</p>
-                <p>Micro-interactions also serve a psychological purpose. They provide immediate feedback. When a user clicks a button and it morphs into a loading spinner, it assures them that the system is working. This simple animation reduces bounce rates significantly, as users are more willing to wait a few extra seconds if they are visually engaged. In the modern web, perception of speed is just as important as actual server response times.</p>
             </div>
 
             <div id="textBlock2_Step2" class="hidden">
                 <h2>Edge Computing and Zero Latency</h2>
                 <p>As applications become heavier, delivering them quickly to users worldwide is a major challenge. This is where Edge Computing steps in. Instead of processing requests in a central data center, Edge Computing brings the processing power as close to the user as possible—often within the same city. This dramatically reduces latency, allowing complex, data-heavy applications to feel instantaneous.</p>
-                <p>In conclusion, whether it is AI-driven interfaces, decentralized hosting, or edge computing, the golden rule remains unbroken: Speed and User Experience are king. A platform that fails to deliver content quickly and securely will lose its audience. Mastering these modern technologies is essential for anyone looking to build robust, scalable, and future-proof digital platforms.</p>
             </div>
 
-            <!-- ADSTERRA AD PLACEMENT 2 (NATIVE / SOCIAL BAR) -->
+            <!-- AD SPACE 4: NATIVE BANNER (BOTTOM REPEAT) -->
             <div class="ad-space">
-                [Insert Adsterra Native Ad or Social Bar Script Here]
+                <script async="async" data-cfasync="false" src="https://pl29723144.effectivecpmnetwork.com/b6e41ad24abdf65161d244e6c95a220c/invoke.js"></script>
+                <div id="container-b6e41ad24abdf65161d244e6c95a220c"></div>
             </div>
 
             <!-- 🔘 BOTTOM TIMER & FINAL BUTTON 🔘 -->
@@ -173,12 +201,14 @@
         </div> 
     </div>
 
-    <!-- ADSTERRA POPUNDER SCRIPT GOES HERE -->
+    <!-- 🚀 ADSTERRA FLOATING ADS (POPUNDER & SOCIAL BAR) 🚀 -->
+    <script src="https://pl29723116.effectivecpmnetwork.com/b1/68/2a/b1682ac9e7902fd7e7a9190ca4fbdb7d.js"></script>
+    <script src="https://pl29724400.effectivecpmnetwork.com/92/4d/f6/924df65f2934c050220a49c40a298c77.js"></script>
 
     <script>
         // --- CONFIGURATION ---
-        const waitTime = 10; // 10 seconds for Middle Button AND 10 seconds for Final Button
-        let destinationUrl = "https://www.google.com"; // Default Final URL
+        const waitTime = 10; 
+        let destinationUrl = "https://www.google.com"; 
 
         // Get URL Parameters
         const urlParams = new URLSearchParams(window.location.search);
@@ -190,8 +220,7 @@
             try { destinationUrl = atob(encodedLink); } 
             catch (error) { console.error("Invalid Link Format"); }
         }
-        // ---------------------
-
+        
         // UI Elements
         const stepBadge = document.getElementById('stepBadge');
         const readMoreBtn = document.getElementById('readMoreBtn');
@@ -200,7 +229,7 @@
         const bottomTimerDisplay = document.getElementById('bottomTimerDisplay');
         const finalActionBtn = document.getElementById('finalActionBtn');
 
-        // --- DYNAMIC CONTENT SWAPPING BASED ON STEP ---
+        // Dynamic Content Swapping
         if (currentStep === 1) {
             stepBadge.textContent = "Step 1 of 2";
             document.getElementById('mainTitle').textContent = "The Evolution of Web Design & Architecture";
@@ -218,7 +247,7 @@
         let currentBottomTime = waitTime;
         let bottomTimerStarted = false;
 
-        // --- 🚀 START TOP TIMER (ON MIDDLE BUTTON) ---
+        // Top Timer Logic
         const topInterval = setInterval(() => {
             currentTopTime--;
             readMoreBtn.textContent = `Please wait ${currentTopTime}s...`;
@@ -231,17 +260,13 @@
             }
         }, 1000); 
 
-        // --- 🚀 MIDDLE BUTTON CLICK (REVEAL BOTTOM SECTION) ---
+        // Middle Button Click Logic
         readMoreBtn.addEventListener('click', () => {
-            
-            // Hide middle button wrapper
             middleBtnWrapper.style.display = 'none';
-            // Reveal bottom section
             hiddenSection.classList.remove('hidden');
-            // Scroll down smoothly
             hiddenSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
 
-            // --- 🚀 START BOTTOM TIMER ---
+            // Bottom Timer Logic
             if (!bottomTimerStarted) {
                 bottomTimerStarted = true;
                 
@@ -257,14 +282,12 @@
                         if (currentStep === 1) {
                             bottomTimerDisplay.textContent = "Step 1 Complete!";
                             bottomTimerDisplay.style.color = "#007bff";
-                            
                             finalActionBtn.disabled = false;
                             finalActionBtn.classList.add('active-blue');
                             finalActionBtn.textContent = "Next Page ➔";
                         } else {
                             bottomTimerDisplay.textContent = "Your Link is Ready!";
                             bottomTimerDisplay.style.color = "#28a745";
-                            
                             finalActionBtn.disabled = false;
                             finalActionBtn.classList.add('active-green');
                             finalActionBtn.textContent = "Get Link Now";
@@ -274,13 +297,11 @@
             }
         });
 
-        // --- 🚀 FINAL BUTTON CLICK (REDIRECT LOGIC) ---
+        // Final Button Click Logic
         finalActionBtn.addEventListener('click', () => {
             if (currentStep === 1) {
-                // Go to Step 2
                 window.location.href = `?step=2&go=${encodedLink}`;
             } else {
-                // Go to the Original Destination Link
                 window.location.href = destinationUrl;
             }
         });
